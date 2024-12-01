@@ -1,0 +1,182 @@
+#slide
+{
+    background-image: url('../images/background-pattern.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pagi ul li a:hover
+{
+    color: black;
+}
+.category
+{
+    height: 230px;
+    width: 330px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.category img
+{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.category:hover
+{
+    margin-top: -20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+} 
+.brand
+{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.product
+{
+   margin-left: 850px;
+}
+.product ul li
+{
+ list-style-type: none;
+ display: inline-block;
+ 
+  
+}
+.product ul li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.product ul li a:hover
+{
+    border-bottom: 3px solid orange;
+}
+.box
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.img
+{
+    background-color: rgb(247, 243, 243);
+    position: relative;
+}
+.heart
+{
+    border: 1px solid lightgray;
+    position: absolute;
+    left: 75%;
+    top:5%;
+    padding: 12px 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+   /* height: 50px;
+   width: 50px; */
+   /* text-align: center;
+   margin-top: 10px; */
+}
+.heart:hover
+{
+    background-color: red;
+    color: white;
+}
+.offer
+{
+    position: absolute;
+    left: 8%;
+    bottom: 80%;
+   height: 25px;
+   width: 55px;
+    background-color: rgb(91, 147, 62);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#recent
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#footer
+{
+    /* height: 350px; */
+     background-color: rgb(58, 55, 55);
+     
+}
+
+.icon i:hover
+{
+    color: black;
+    background-color: aliceblue;
+    
+}
+.ultras ul
+{
+    list-style-type: none;
+}
+.ultras ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+.service ul
+{
+    list-style-type: none;
+}
+.service ul li a
+{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: white;
+}
+#prod
+{
+    height: 500px;
+    background-image: url('../images/product2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position-y: 10%;
+    
+}
+#prod .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.429);
+}
+#about
+{
+   height: 500px;
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    
+}
+#about .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.429);
+}
+#cart:hover
+{
+    background-color: white;
+    color: black;
+}
+#cont
+{
+    height: 500px;
+    background-image: url('../images/contact1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position-y: 10%;
+}
+#feed
+{
+    height: 500px;
+    background-image: url('../images/feedback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position-y: 10%;
+}
